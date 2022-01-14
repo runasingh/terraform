@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "aws-ec2-instance-runa"
+    Name = "aws-ec2-instance-runasingh"
     Env = "test"
     owner = "runa"
   }
